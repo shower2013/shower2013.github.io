@@ -1,14 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T22:37:30.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="vCj8XvNZW_OsycxJ7hD5" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-27T22:45:55.267Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="N36hmLsTj1KfT2-Hu8sL" version="17.2.4" type="github">
   <diagram id="IUyv76lUfYZzS0pa-cUY" name="Page-1">
     <mxGraphModel dx="996" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3h2jiW8dGWjIZAlnzGfG-1" value="Gitlab" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="370" y="270" width="80" height="80" as="geometry" />
+          <mxGeometry x="380" y="450" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3h2jiW8dGWjIZAlnzGfG-2" value="Giblab-runner" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="520" y="280" width="80" height="80" as="geometry" />
+          <mxGeometry x="530" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3h2jiW8dGWjIZAlnzGfG-3" value="SonarQuber" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3h2jiW8dGWjIZAlnzGfG-4" value="SonarQuber- scanner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3h2jiW8dGWjIZAlnzGfG-5" value="Rancher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3h2jiW8dGWjIZAlnzGfG-6" value="Jenkins" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="274" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3h2jiW8dGWjIZAlnzGfG-7" value="jenkins slave" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="274" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3h2jiW8dGWjIZAlnzGfG-8" value="docker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3h2jiW8dGWjIZAlnzGfG-9" value="docker-compose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3h2jiW8dGWjIZAlnzGfG-10" value="kubernetes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3h2jiW8dGWjIZAlnzGfG-11" value="helm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3h2jiW8dGWjIZAlnzGfG-12" value="harbor" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="164" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3h2jiW8dGWjIZAlnzGfG-13" value="Vagrant" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3h2jiW8dGWjIZAlnzGfG-14" value="MinIO" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="490" y="164" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3h2jiW8dGWjIZAlnzGfG-15" value="virtualbox" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="490" y="880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3h2jiW8dGWjIZAlnzGfG-16" value="kvm" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3h2jiW8dGWjIZAlnzGfG-17" value="openstack" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3h2jiW8dGWjIZAlnzGfG-18" value="ansible" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="560" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
